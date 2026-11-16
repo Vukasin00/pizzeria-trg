@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="sr" data-tenant="trg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+    <meta name="description" content="Portal za kuhinju — Pizzeria Trg" />
+    <meta name="theme-color" content="#10291A" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Kuhinja" />
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="/pizzeria-trg/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/pizzeria-trg/apple-touch-icon.png" />
+    <!-- The kitchen's own manifest, in the HTML from the start: iOS Safari reads the manifest link when the page loads and
+         ignores a later change by the app, so a dynamically swapped link made "Add to Home Screen" install the customer app. -->
+    <link rel="manifest" href="/pizzeria-trg/manifest-kuhinja.webmanifest" />
+    <title>Kuhinja · Pizzeria Trg</title>
+    <style>
+      /* Splash painted before the JS bundle arrives: the kitchen is dark, so the splash is too. */
+      html, body, #root { height: 100%; margin: 0; }
+      body { background: #10291A; }
+      .splash { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--color-cream-100, #fff); }
+      .splash-name { font-family: var(--font-display, sans-serif); font-weight: var(--display-weight, 400); font-size: calc(40px * var(--display-scale, 1)); letter-spacing: var(--display-tracking, 0.02em); text-transform: var(--display-case, none); }
+      .splash-sub { font: 600 12px -apple-system, BlinkMacSystemFont, system-ui, sans-serif; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.55; }
+    </style>
+  <style id="tenant-theme">
+ html[data-tenant="trg"] {
+  --color-cream-50: #FFFFFF;
+  --color-cream-100: #F6F4EE;
+  --color-cream-200: #ECE9E1;
+  --color-cream-300: #DEDAD0;
+  --color-cream-400: #BDB8AB;
+  --color-azure-100: #E2EFE5;
+  --color-azure-200: #2B7D43;
+  --color-azure-300: #217139;
+  --color-azure-400: #185A2C;
+  --color-on-primary: #FFFFFF;
+  --color-forest-950: #0A1F11;
+  --color-forest-900: #10291A;
+  --color-forest-800: #163A24;
+  --color-forest-700: #1F4A2F;
+  --color-forest-600: #3D5A47;
+  --color-forest-500: #5F7867;
+  --color-forest-400: #8A9C8F;
+  --color-flame-100: #F8E1E1;
+  --color-flame-200: #EBB0B2;
+  --color-flame-500: #B51E23;
+  --color-flame-600: #9A181D;
+  --color-flame-700: #7E1418;
+  --color-tomato-500: #C8321F;
+  --color-tomato-100: #F9E0DC;
+  --color-basil-500: #3A8F4E;
+  --color-basil-100: #E1F0E4;
+  --color-ink: #1C211D;
+  --color-ink-2: #4A524C;
+  --color-ink-3: #667068;
+  --font-display: "Oswald", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --display-scale: 0.88;
+  --display-tracking: 0.01em;
+  --display-case: uppercase;
+  --display-weight: 600;
+  --motif: url(/pizzeria-trg/motif.svg) center top / 220px auto repeat, linear-gradient(#F3F1EA, #F3F1EA);
+  --glass-bg: rgba(246, 244, 238, 0.82);
+ }
+/* self-hosted display font (latin + latin-ext for Serbian diacritics); /pizzeria-trg/ is filled in by vite.config.ts */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/pizzeria-trg/fonts/oswald-600-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/pizzeria-trg/fonts/oswald-600-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+    
+    <script type="module" crossorigin src="/pizzeria-trg/assets/main-CQmtUMou.js"></script>
+    <link rel="stylesheet" crossorigin href="/pizzeria-trg/assets/main-CQ3Fmxgd.css"><script id="vite-plugin-pwa:register-sw" src="/pizzeria-trg/registerSW.js"></script></head>
+  <body>
+    <div id="root"><div class="splash"><span class="splash-name">KUHINJA</span><span class="splash-sub">Pizzeria Trg · Učitavanje</span></div></div>
+  </body>
+</html>

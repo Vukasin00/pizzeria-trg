@@ -1,0 +1,26 @@
+{
+  "id": "/pizzeria-trg/kuhinja",
+  "name": "Pizzeria Trg · Kuhinja",
+  "short_name": "Kuhinja",
+  "description": "Portal za kuhinju — Pizzeria Trg",
+  "lang": "sr",
+  "start_url": "/pizzeria-trg/kuhinja",
+  "scope": "/pizzeria-trg/kuhinja",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#10291A",
+  "background_color": "#10291A",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

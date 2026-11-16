@@ -1,0 +1,47 @@
+{
+  "info": {
+    "id": "trg",
+    "guideKey": "pt-guide-done",
+    "storageKey": "pizzeria-trg",
+    "fulfillments": [
+      "delivery",
+      "pickup"
+    ],
+    "sizes": 1,
+    "name": "Pizzeria Trg",
+    "address": "Makedonska 5, Beograd",
+    "phone": "064 126 5501",
+    "hours": "Pon – Čet 10:00 – 00:30 · Pet – Sub 12:00 – 03:30 · Ned 12:30 – 00:30",
+    "instagram": "",
+    "logo": "logo.webp",
+    "deliveryFee": 250,
+    "cardPayment": [],
+    "locations": 0,
+    "categories": 5,
+    "menu": "static",
+    "menuItems": 71,
+    "closedToday": false,
+    "soldOutToday": [],
+    "orders": "local",
+    "tenantPath": "trg",
+    "emulator": false
+  },
+  "style": {
+    "bg": "#F6F4EE",
+    "card": "#FFFFFF",
+    "inset": "#ECE9E1",
+    "line": "#DEDAD0",
+    "primary": "#217139",
+    "onPrimary": "#FFFFFF",
+    "dark": "#10291A",
+    "dark2": "#163A24",
+    "cta": "#B51E23",
+    "ink": "#1C211D",
+    "ink2": "#4A524C",
+    "font": "\"Oswald\", \"Arial Narrow\", \"Helvetica Neue\", Arial, sans-serif",
+    "tracking": "0.01em",
+    "case": "uppercase",
+    "weight": "600",
+    "scale": "0.88"
+  }
+}
